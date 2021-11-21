@@ -1,0 +1,50 @@
+What is Bigdata:
+Collect the data is called bigdata.
+
+collect data------Transfer the data------Storage the data-----Analysis the data------ Machine Learning (or) Busnisee pepople (or) Report 
+			|			|       	     |
+			|			|        	     |
+			|			|		     |
+		        |			|		     |
+	   	      Kafka	      DBMS/Cloud Sorage	        PowerBI/Tablue
+		Messaging System 
+				
+
+Data Transfer Considerations:
+* Security
+* Reliability
+* Speed
+* availability
+* Scalability
+
+Security:-security means protecting digital data, such as those in a database, from destructive forces and from the unwanted actions of unauthorized users, 
+		  such as a cyberattack or a data breach.
+		  
+Reliability:- Reliability means that data is complete and accurate, and it is a crucial foundation for building data trust across the organization.
+
+Speed:- If transfer the huge amount of the data that time speed will required to transfer data in very fast and secure.
+
+Avaliability:- availability is a term used by computer storage manufacturers and storage service providers to describe how data should be available at a 
+			   ranging equired level of performance in situations ranging from normal through disastrous.
+			   
+Scalability:- The system can easily be expanded by adding more machines as needed.
+
+
+
+
+What is kafaka:
+Kafaka is a persistant, distributed, replicated, publish/subscribe messaging system. publisher send a messages to a cluster to broker. 
+The broker persist the messages to disk.
+
+					Source System----producer---- apache kafka-----consumar------Target System
+									    |
+									    |
+									Zookeepar		
+
+Cluster:- The collection of kafka brokers is called cluster.
+topic:- The kafka maintains the feeds of the messages in categories called topic.
+producer:- we will call processes that publish messages to a kafka topic producer.
+consumar:- we will call processes that subscribe topics process the feed of the published messages consumar.
+Broker:-Kafka run as cluster comprised of one or more servers each of which called broker.
+Partitions:- The topic data is divided into small small parts is called partions.
+ 
